@@ -16,6 +16,8 @@ let num = 0;
 
 /* --------------------- Variables --------------------- */
 
+/* --------------------- Functions --------------------- */
+
 const navBorder = () => {
   if (window.scrollY === 0) {
     Nav.style.setProperty("--opacity-after", 0);
@@ -23,8 +25,6 @@ const navBorder = () => {
     Nav.style.setProperty("--opacity-after", 1);
   }
 };
-
-/* --------------------- Functions --------------------- */
 
 navItems.forEach((link) => {
   link.addEventListener("click", () => {
